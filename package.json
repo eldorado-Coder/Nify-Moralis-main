@@ -1,0 +1,40 @@
+{
+  "name": "nify_moralis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node app/db/seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nifyorg/Nify_Moralis.git"
+  },
+  "author": "Ashot Petrosyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nifyorg/Nify_Moralis/issues"
+  },
+  "homepage": "https://github.com/Nifyorg/Nify_Moralis#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.13.0",
+    "faker": "^5.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.14",
+    "moralis": "^0.0.134",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
